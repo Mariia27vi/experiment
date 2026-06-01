@@ -100,7 +100,7 @@ psychoJS.start({
     {'name': 'recog_phase.xlsx', 'path': 'recog_phase.xlsx'},
     {'name': 'L0.png', 'path': 'L0.png'},
     {'name': 'T0.png', 'path': 'T0.png'},
-    {'name': 'default.png', 'path': 'default.png'},
+    {'name': 'blank.png', 'path': 'blank.png'},
   ]
 });
 
@@ -349,7 +349,7 @@ async function experimentInit() {
   image_1 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_1', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -362,7 +362,7 @@ async function experimentInit() {
   image_2 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_2', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -375,7 +375,7 @@ async function experimentInit() {
   image_3 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_3', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -388,7 +388,7 @@ async function experimentInit() {
   image_4 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_4', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -401,7 +401,7 @@ async function experimentInit() {
   image_5 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_5', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -414,7 +414,7 @@ async function experimentInit() {
   image_6 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_6', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -427,7 +427,7 @@ async function experimentInit() {
   image_7 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_7', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -440,7 +440,7 @@ async function experimentInit() {
   image_8 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_8', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -453,7 +453,7 @@ async function experimentInit() {
   image_9 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_9', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -466,7 +466,7 @@ async function experimentInit() {
   image_10 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_10', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -479,7 +479,7 @@ async function experimentInit() {
   image_11 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_11', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -492,7 +492,7 @@ async function experimentInit() {
   image_12 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image_12', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -857,7 +857,7 @@ async function experimentInit() {
   image1 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image1', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -870,7 +870,7 @@ async function experimentInit() {
   image2 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image2', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -883,7 +883,7 @@ async function experimentInit() {
   image3 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image3', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -896,7 +896,7 @@ async function experimentInit() {
   image4 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image4', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -909,7 +909,7 @@ async function experimentInit() {
   image5 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image5', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -922,7 +922,7 @@ async function experimentInit() {
   image6 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image6', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -935,7 +935,7 @@ async function experimentInit() {
   image7 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image7', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -948,7 +948,7 @@ async function experimentInit() {
   image8 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image8', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -961,7 +961,7 @@ async function experimentInit() {
   image9 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image9', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -974,7 +974,7 @@ async function experimentInit() {
   image10 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image10', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -987,7 +987,7 @@ async function experimentInit() {
   image11 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image11', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
@@ -1000,7 +1000,7 @@ async function experimentInit() {
   image12 = new visual.ImageStim({
     win : psychoJS.window,
     name : 'image12', units : undefined, 
-    image : 'default.png', mask : undefined,
+    image : 'blank.png', mask : undefined,
     anchor : 'center',
     ori : 1.0, 
     pos : [0, 0], 
