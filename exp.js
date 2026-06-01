@@ -108,7 +108,7 @@ psychoJS.start({
     {'name': 'recog_phase - Sheet1.csv', 'path': 'recog_phase - Sheet1.csv'},
     {'name': 'L0.png', 'path': 'L0.png'},
     {'name': 'T0.png', 'path': 'T0.png'},
-    {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
+    {'name': 'default.png', 'path': 'default.png'},
   ]
 });
 
